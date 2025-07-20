@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 35px 150px;
+}
+nav ul li{
+    list-style: none;
+}
+nav ul a{
+    text-decoration: none;
+}
+    
+.nav-title{
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 28px;
+font-weight: 800;
+line-height: 33px;
+
+}
+.btn-primary{
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 20px;
+font-weight: 600;
+line-height: 23px;
+padding: 7px 12px 7px 12px;
+}
+.btn-bg-color{
+    border-radius: 8px;
+    background: rgb(13, 19, 33);
+    color: rgb(243, 244, 246);
+}
+.shared-lorem{
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 400;
+opacity: 0.7;
+}
+.hero-container{
+background-image: url("../assets/Hero-bg.png");
+height: 652px;
+left: 0;
+right: 0;
+top: 131px;
+bottom: 4462px;
+align-items: center;
+justify-items: center;
+}
+.hero-caption{
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 30px;
+}
+.first-section-container{
+  margin: 80px 97px;
+  width: 1140px;
+  border-radius: 16px;
+background: rgba(13, 19, 33, 0.02);
+padding: 80px 97px 80px 97px;
+}
+.align-item{
+    justify-items: center;
+    align-items: center;
+}
+.first-image-container{
+    display: flex;
+    justify-content: space-between;
+    margin: 48px;
+}
+/* shared */
+.image-container-caption{
+    color: rgba(13, 19, 33, 0.7);
+font-family: Azeret Mono;
+font-size: 20px;
+margin: 16px 0px;
+}
+.image-container-subtitle{
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 13px;
+opacity: 0.7;
+}
+.shared-images{
+    width: 259.56px;
+    height: 217.01px;
+}
+.image-section-flex{
+    display: flex;
+    /* margin: 32px 0px; */
+}
+.image-section-flex-two{
+    display: flex;
+    /* margin: 32px 0px; */
+}
